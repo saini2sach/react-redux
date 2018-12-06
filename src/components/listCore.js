@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import store from '../store/indexProvider';
+import store from '../store/indexCore';
 
 class List extends Component {
     constructor(props){
