@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import store from '../store/indexProvider';
+import store from '../store/indexCore';
 
 class List extends Component {
     constructor(props){
@@ -8,11 +8,9 @@ class List extends Component {
         this.handleAllBtnClick = this.handleAllBtnClick.bind(this);
     }
     handleChange(e) {
-        // console.log("Value entered");
         store.dispatch({type: 'CHANGE_AMOUNT', data: e.target.value});
     }
     handleAllBtnClick(e) {
-        // console.log(e.target.value);
         switch(e.target.value) {
             case '-1': 
                 store.dispatch({type: 'DECREMENT_1'});
