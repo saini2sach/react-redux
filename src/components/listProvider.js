@@ -70,7 +70,6 @@ class List extends Component {
                     <button value="+1" className="button">+1</button>
                     <button value="+5" className="button">+5</button>
                 </div>
-
             </div>
         )
     }

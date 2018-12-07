@@ -5,6 +5,7 @@ import AppCore from './AppCore';
 import AppProvider from './AppProvider';
 import Notfound from './components/notFound';
 import { Route, NavLink, BrowserRouter as Router, Switch } from 'react-router-dom'
+import ActivityDetails from './components/ActivityDetails';
 
 
 class App extends Component {
@@ -31,7 +32,8 @@ class App extends Component {
               <Route component={Notfound}/>
             </Switch>            
           </div>
-        </Router>      
+        </Router>
+        <ActivityDetails/>    
       </div>
     );
   }

@@ -1,0 +1,32 @@
+
+
+.first-col-nav {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .col-offset-2 {
+    margin-left: 16.67%;
+  }
+  
+  .col-offset-1 {
+    margin-left: 8.33%;
+  }
+  
+
+  .activity-details .active {
+    color: rgb(216, 171, 87);
+    background-color: rgb(30, 46, 46);
+    padding: 4px;
+  }
+  
+  .activity-details {
+    border: 1px solid #d2d2d2;
+    box-shadow: 0 0 10px 2px #d2d2d2;
+    background-color: rgb(238, 227, 215)
+  }
+  
+  .activity-details .first-col {
+    border-right: 5px solid rgb(46, 38, 17);
+  }

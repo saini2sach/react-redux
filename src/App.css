@@ -21,7 +21,9 @@
 .App-intro {
   font-size: large;
 }
-
+h1 {
+  margin: 20px;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -115,4 +117,51 @@ li {
 
 .top-box-shadow {
   box-shadow: 0 -3px 10px 0 rgba(0,0,0,.0785)
+}
+
+.col-4 {
+  margin-top: 10px;
+  width: 31%;
+  float: left;
+  margin-right: 1%;
+  padding-right: 4px;
+}
+.col-8 {
+  margin-top: 10px;
+  width: 63%;
+  float: left;
+  margin-right: 2%;
+  padding-right: 4px;
+}
+
+.col-6 {
+  margin-top: 10px;
+  width: 46%;
+  float: left;
+  margin-right: 2%;
+  padding-right: 4px;
+}
+
+.my-4 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.m-4 {
+  margin: 16px;
+}
+
+.px-4 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.d-block {
+  display: block;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
 }
