@@ -6,6 +6,7 @@ import AppProvider from './AppProvider';
 import Notfound from './components/notFound';
 import { Route, NavLink, BrowserRouter as Router, Switch } from 'react-router-dom'
 import ActivityDetails from './components/ActivityDetails';
+import SvgChart from './components/svgArt';
 
 
 class App extends Component {
@@ -33,7 +34,8 @@ class App extends Component {
             </Switch>            
           </div>
         </Router>
-        <ActivityDetails/>    
+        <ActivityDetails/> 
+        <SvgChart/>   
       </div>
     );
   }
